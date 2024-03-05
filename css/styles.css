@@ -86,7 +86,12 @@ margin-bottom: 20px;
 .sticky{
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(35px);
-  
+  -webkit-backdrop-filter: blur(35px); 
+}
+
+.element{
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(35px); 
 }
 .feature-content{
   display: grid;
@@ -452,4 +457,7 @@ PACKAGE CSS
   to{
       transform: rotate(3turn);
   }
+}
+.element.no-backdrop-filter-support{
+  background-color: rgba(0, 0, 0, 0.8);
 }

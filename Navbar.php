@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="css/navbar.css">
-<header class="sticky">
+<header class="sticky element">
     <div class="navbar">
         <div class="log">
         <a href="index.php" class="logo">NTN<span> Leisure</span></a></div>
@@ -45,6 +45,11 @@
     sidebar.classList.toggle("de-active");
     var sidebar = document.querySelector(".close");
     sidebar.classList.toggle("active");
+}
+const element = document.querySelector('.element');
+
+if (!CSS.supports('backdrop-filter', 'blur(35px)')) {
+  element.classList.add('no-backdrop-filter-support');
 }
  </script>
  

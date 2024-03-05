@@ -26,7 +26,7 @@
     <div class="loader"></div></div>
 
   <section class="cover">
-    <div class="cover-content">
+    <div class="cover-content element">
         <h1>About Us</h1>
         <p>Explore exciting destinations and plan your dream trip.</p>
     </div>
@@ -94,6 +94,5 @@
             left: 50%;
             transform: translateX(-50%);
             color: #fff;
-            backdrop-filter: blur(30px);
             }       
 </style>

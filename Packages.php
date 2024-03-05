@@ -27,7 +27,7 @@
   <div class="loader"></div></div>
   
         <section class="cover">
-            <div class="cover-content">
+            <div class="cover-content element">
                 <h1>Packages</h1>
                 <p>Explore exciting destinations.</p>
         </div>
@@ -38,7 +38,7 @@
         <div class="grid-item">
           <img src="imgs/ntn-leisure-sri-lanka-srilankan-adventures.jpg">
           <div class="overlay">
-            <div class="overlay-text">
+            <div class="overlay-text element">
             <h2>Adventurous Sri Lanka Tour</h2>
             <p>This program is a 15-day travel itinerary that takes you on a journey through Sri Lanka, exploring s...</p>
             <button class="read-more">Read More</button>  
@@ -48,7 +48,7 @@
         <div class="grid-item">
           <img src="imgs/ntn-leisure-sigiriya.jpg">
           <div class="overlay">
-          <div class="overlay-text">
+          <div class="overlay-text element">
             <h2>Classic Sri Lankan Tour</h2>
             <p>This program is a 15-day travel itinerary that takes you on a journey through the beautiful island o...</p>
             <button class="read-more">Read More</button>  
@@ -58,7 +58,7 @@
         <div class="grid-item">
           <img src="imgs/ntn-leisure-meditation-wellness.jpg">
           <div class="overlay">
-            <div class="overlay-text">
+            <div class="overlay-text element">
             <h2>Sri Lankan Wellness Tour</h2>
             <p>This program is a 13-day travel itinerary that takes you on a journey through the scenic beauty of S...</p>
             <button class="read-more">Read More</button>  
@@ -68,7 +68,7 @@
         <div class="grid-item">
           <img src="imgs/ntn-leisure-yala-unawatuna-leopard.jpg">
           <div class="overlay">
-          <div class="overlay-text">
+          <div class="overlay-text element">
             <h2>Sri Lankan Wildlife Tour</h2>
             <p>This program is a 15-day travel itinerary that takes you on a journey through the natural beauty of...</p>
             <button class="read-more">Read More</button>  
@@ -78,7 +78,7 @@
         <div class="grid-item">
           <img src="imgs/ntn-leisure-family-beach-tour-holiday.jpg">
           <div class="overlay">
-          <div class="overlay-text">
+          <div class="overlay-text element">
             <h2>Family Holiday In Sri Lanka</h2>
             <p>This travel program takes you on a 15-day journey through some of the most fascinating and beautiful...</p>
             <button class="read-more">Read More</button>  
@@ -88,7 +88,7 @@
         <div class="grid-item">
           <img src="imgs/ntn-leisure-tea-and-beach.jpg">
           <div class="overlay">
-          <div class="overlay-text">
+          <div class="overlay-text element">
             <h2>Sri Lankan Beach Tour</h2>
             <p>This program is a short 7-day trip around Sri Lanka, starting with arrival in Colombo and then headi...</p>
             <button class="read-more">Read More</button>
@@ -96,12 +96,13 @@
             
           </div>
         </div>
-        <div class="grid-item" onclick="window.location.href='Bespoke.php';" style="cursor: pointer;">
+        <div class="grid-item"  style="cursor: pointer;">
           <img src="imgs/ntn-leisure-9-archs.webp">
           <div class="overlay">
-          <div class="overlay-text">
+          <div class="overlay-text element">
             <h2>Personalised Tours</h2>
             <p>Create an experience that suits your needs.</p>
+            <button class="read-more" onclick="window.location.href='Bespoke.php';">Inquire</button>
             </div>
           </div>
         </div>

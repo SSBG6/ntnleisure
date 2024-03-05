@@ -29,13 +29,13 @@
 <script src="js/loadscript.js"></script>
   <div class="loader"></div></div>
   <section class="cover">
-            <div class="cover-content">
+            <div class="cover-content element">
                 <h1>Customize Your Experience</h1>
                 <p>Plan your dream trip with us</p>
         </div>
         </section>
     <section class="Bespoke">
-        <form action="experiencemail.php" class="Bespoke-form" method="POST">
+        <form action="experiencemail.php" class="Bespoke-form element" method="POST">
         <div class="form-group">
             <label for="title">Title</label>
             <select class="form-control" id="title" name="title" required>

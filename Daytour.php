@@ -27,7 +27,7 @@
         <div>
 
             <section class="cover">
-                <div class="cover-content">
+                <div class="cover-content element">
                     <h1>Day Tours</h1>
                     <p>Explore exciting destinations and plan your dream trip!</p>
             </div>
