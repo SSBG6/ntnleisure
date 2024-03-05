@@ -1,0 +1,89 @@
+
+  /* Header styling */
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background: transparent;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Navbar link styling */
+  .navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    text-decoration: none;
+    transition: all .5s ease;
+  }
+  
+  /* Navbar link hover effect */
+  .navbar a:hover {
+    color: var(--main-color);
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-left: auto; /* Align logo to the right */
+  }
+  
+  /* Span styling */
+  span {
+    color: var(--main-color); /* Use defined variable */
+  }
+  
+  /* Right section styling */
+  .h-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Social media link styling */
+  .h-right a:first-child {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    margin-right: 20px;
+  }
+  
+  .h-right a {
+    vertical-align: middle;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 18px;
+    margin-left: 5px;
+    transition: all .5s ease;
+    text-decoration: none;
+  }
+  
+  /* Social media link hover effect */
+  .h-right i:hover {
+    color: var(--main-color);
+    transform: translateY(-3px);
+  }
+  
+  /* Menu icon styling */
+  #menu-icon {
+    color: var(--text-color);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+  }
+  

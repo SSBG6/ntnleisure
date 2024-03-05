@@ -1,0 +1,406 @@
+h1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; /* Corrected font family name with quotes */
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --text-color: #fff;
+  --big-color: #000;
+  --main-color: #ffa343;
+  --h1-font: 6rem;
+  --h2--font: 3rem;
+  --p-font: 1rem;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--big-color);
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 70px 17% 60px;
+}
+.Home ,.About-section{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+}
+
+.Home{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../imgs/Background.jpg") bottom center/cover;
+}
+.About-section{
+  background-image:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),  url("../imgs/DSC.jpeg");
+  background-position: bottom center;
+  overflow:hidden;
+  height: 400px;
+}
+
+.home-text h5{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color:var(--main-color);
+}
+.home-text h1{
+font-size: var(--h1-font);
+font-weight: 800;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+.home-text p{
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color:#ffffffab;
+  margin-bottom: 35px;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: transparent;
+  color:var(--text-color);
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
+  font-weight:500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover{
+  transform: translateX(10px);
+  background: var(--main-color);
+  color: var(--big-color);
+}
+.sticky{
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(35px);
+  
+}
+.feature-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+align-items: center;
+text-align: center;
+gap: 3rem;
+}
+.row-img{
+  overflow:hidden;
+  display:flex;
+  width: 100px;
+  height: 100px;
+  margin:auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  cursor:pointer;
+
+}
+.row-img img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s;
+
+}
+.row-img:hover img{
+  transform: scale(1.2);
+  overflow: hidden;
+}
+.feature-content h4{
+  font: size 17px;
+  font-weight: 500;
+  cursor:pointer;
+  transition: all.50s ease;
+}
+.feature-content h4:hover{
+  color:var(--main-color);
+}
+/* Style the holiday section */
+.holiday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #000; /* Changed background color to black */
+}
+
+/* Style the holiday text */
+.holiday.text {
+  text-align: center;
+}
+
+/* Style the holiday text h5 */
+.holiday.text h5 {
+  color: #fff; /* Changed text color to white */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Style the holiday text p */
+.holiday.text p {
+  color: #999; /* Changed text color to light gray */
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Style the holiday text link */
+.holiday.text a.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the link */
+.holiday.text a.btn:hover {
+  background-color: #0056b3;
+}
+.tour-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  flex-basis: calc(33.33% - 20px); /* Adjust width based on the number of items */
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden; /* Ensure content is cropped */
+  position: relative; /* Needed for the absolute positioning of the overlay */
+}
+
+.box img {
+  width: 100%; /* Set width to fill the container */
+  height: 100%; /* Set height to fill the container */
+  object-fit: cover; /* Crop the image to cover the entire container */
+  transition: transform 0.3s ease ease-in-out; /* Add transition for smooth effect */
+}
+
+/* Add overlay with a delay */
+.box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.301); /* Adjust opacity as needed */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Hover effect */
+.box:hover img {
+  transform: scale(1.15); /* Increase size by 15% */
+}
+
+.box:hover::after {
+  opacity: 1; /* Show overlay */
+}
+
+.box:hover div{
+  display: flex;
+}
+.box h6, .box h4 {
+  color: #fff;
+}
+
+.box div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10;
+  display: none;
+}
+.box div h6{
+  line-height: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+} 
+.center-btn{
+  text-align: center;
+  margin-top: 4rem;
+}
+.culture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #000; /* Changed background color to black */
+}
+
+/* Style the holiday text */
+.culture.text {
+  text-align: center;
+}
+
+/* Style the holiday text h5 */
+.culture.text h5 {
+  color: #fff; /* Changed text color to white */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Style the holiday text p */
+.culture.text p {
+  color:white; /* Changed text color to light gray */
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Style the holiday text link */
+.culture.text a.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+    text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the link */
+.culture.text a.btn:hover {
+  background-color: #0056b3;
+}
+
+/*
+PACKAGE CSS
+*/
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.card a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: #0056b3;
+}
+
+.hidden-text {
+  display: none;
+}
+
+.hidden-text.show {
+  display: block;
+}
+
+
+/*Inquiry page*/
+#inquiry-holiday-enquiry-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style form labels */
+#inquiry-holiday-enquiry-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style form inputs and select */
+#inquiry-holiday-enquiry-form input[type="text"],
+#inquiry-holiday-enquiry-form input[type="email"],
+#inquiry-holiday-enquiry-form input[type="tel"],
+#inquiry-holiday-enquiry-form input[type="number"],
+#inquiry-holiday-enquiry-form select,
+#inquiry-holiday-enquiry-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure inputs take up proper space */
+}
+
+/* Style checkboxes */
+#inquiry-holiday-enquiry-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style submit button */
+#inquiry-holiday-enquiry-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#inquiry-holiday-enquiry-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
