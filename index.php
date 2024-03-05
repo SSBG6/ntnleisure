@@ -117,7 +117,7 @@
 </div>
 
     <div class="center-btn">
-        <a href="packages.php" class="btn">View tours</a>
+        <a href="Daytour.php" class="btn">View tours</a>
     </div>
 </section>
 <section class="sl">

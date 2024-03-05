@@ -7,7 +7,9 @@
           <div class="footer-logo">
             <img width="auto" height="130" src="imgs/NTNLOG.png" alt="NTN Logistics - Footer Logo">
           </div>  
-          <a href="mailto:nalaka@ntnleisure.com">Email us: nalaka@ntnleisure.com</a><br>
+          <a href="mailto:nalaka@ntnleisure.com">Email us: nalaka@ntnleisure.com</a>
+          <a href="mailto:sales@ntnleisure.com">/ sales@ntnleisure.com</a>
+          <a href="mailto:shamika@ntnleisure.com">/ shamika@ntnleisure.com</a><br>
             <a href="tel:+94766543874">Call us: +94766543874</a>
             <a href="tel:+94717779721">/ +94717779721</a><br>
           </div>

@@ -48,7 +48,7 @@ try {
     $mail->setFrom($email, $name);
     
     // Recipient
-    $mail->addAddress('salukasubasinghe60@gmail.com', 'NTN Leisure');
+    $mail->addAddress('nalaka@ntnleisure.com', 'NTN Leisure');
 
     $mail->isHTML(true);
     $mail->Subject = "$title $name's Bespoke Inquiry";
