@@ -69,21 +69,19 @@ margin-bottom: 20px;
 }
 .btn{
   display: inline-block;
-  padding: 10px 30px;
+  margin-top: 15px;
+  padding: 10px 20px;
   background-color: transparent;
-  color:var(--text-color);
-  font-size: 15px;
+  color: #fff;
+  border: 1px solid #fff;
   text-decoration: none;
-  border: none;
-  font-weight:500;
-  border-radius: 5px;
-  cursor: pointer;
+  font-size: 2vh;
   transition: background-color 0.3s ease;
+  border-radius: 50px;
 }
 .btn:hover{
-  transform: translateX(10px);
-  background: var(--main-color);
-  color: var(--big-color);
+  color: var(--main-color);
+  border:1px solid var(--main-color);
 }
 .sticky{
   background-color: rgba(0, 0, 0, 0.5);
@@ -163,16 +161,19 @@ gap: 3rem;
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: transparent;
   color: #fff;
+  border: 1px solid #fff;
   text-decoration: none;
-  border-radius: 5px;
+  font-size: 2vh;
   transition: background-color 0.3s ease;
+  border-radius: 50px;
 }
 
 /* Hover effect for the link */
 .holiday.text a.btn:hover {
-  background-color: #0056b3;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
 }
 .tour-content {
   display: flex;
@@ -282,17 +283,18 @@ gap: 3rem;
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: transparent;
   color: #fff;
+  border: 1px solid #fff;
   text-decoration: none;
-  border-radius: 5px;
-    text-align: center;
+  font-size: 2vh;
   transition: background-color 0.3s ease;
 }
 
 /* Hover effect for the link */
 .culture.text a.btn:hover {
-  background-color: #0056b3;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
 }
 
 /*
@@ -403,4 +405,51 @@ PACKAGE CSS
 
 #inquiry-holiday-enquiry-form button[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+  /* Safari 9+ */
+  @supports (-webkit-backdrop-filter: none) {
+      .element {
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+      }
+  }
+}
+
+.loader{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  transition: opacity 0.75s, visibility 0.75s;
+  z-index: 1004;
+}
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after{
+  content: "";
+  width: 120px;
+  height: 120px;
+  border: 15px solid #090909dd;
+  border-top-color: var(--main-color);
+  border-radius: 50%;
+  animation: loading 1.5s ease infinite;
+}
+
+@keyframes loading {
+  from{
+      transform: rotate(0turn);
+  }
+  to{
+      transform: rotate(3turn);
+  }
 }

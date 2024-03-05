@@ -1,89 +1,152 @@
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  background: transparent;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .5s ease;
+  padding: 20px;
+}
 
-  /* Header styling */
-  header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    width: 100%;
-    background: transparent;
-    padding-left: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: all .5s ease;
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 22px;
+}
+
+/* Navbar link styling */
+.navbar a {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+  font-size: 1.5vh;
+  margin: 10px 30px;
+  padding: 10px 0;
+  text-decoration: none;
+  transition: color .5s ease; /* Add transition for smooth color change */
+}
+
+/* Navbar link hover effect */
+.navbar a:hover {
+  color: var(--main-color); /* Change color on hover */
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  color: var(--text-color);
+  margin-left: auto; /* Align logo to the right */
+}
+
+/* Span styling */
+span {
+  color: var(--main-color); /* Use defined variable */
+}
+
+/* Right section styling */
+.h-right {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  color: #fff;
+}
+
+/* Social media icon styling */
+.h-right a {
+  vertical-align: middle;
+  font-size: 20px;
+  color: var(--text-color);
+  margin-right: 18px;
+  margin-left: 5px;
+  transition: all .5s ease;
+  text-decoration: none;
+}
+.h-right a:hover {
+  color: var(--main-color); 
+}
+
+
+/* Menu icon styling */
+.menu-icon {
+  color: var(--text-color);
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+
+/* Menu icon hover effect */
+.menu-icon:hover {
+  color: var(--main-color); /* Change color on hover */
+}
+@media only screen and (max-width: 600px) {
+  .menu-icon {
+    display: block;
   }
-  
-  /* Navbar styling */
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  /* Navbar link styling */
-  .navbar a {
-    color: var(--text-color);
-    font-size: var(--p-font);
-    font-weight: 500;
-    margin: 15px 22px;
-    text-decoration: none;
-    transition: all .5s ease;
-  }
-  
-  /* Navbar link hover effect */
-  .navbar a:hover {
-    color: var(--main-color);
-  }
-  
-  /* Logo styling */
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--text-color);
-    margin-left: auto; /* Align logo to the right */
-  }
-  
-  /* Span styling */
-  span {
-    color: var(--main-color); /* Use defined variable */
-  }
-  
-  /* Right section styling */
-  .h-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Social media link styling */
-  .h-right a:first-child {
-    color: var(--text-color);
-    font-size: var(--p-font);
-    margin-right: 20px;
-  }
-  
-  .h-right a {
-    vertical-align: middle;
-    font-size: 20px;
-    color: var(--text-color);
-    margin-right: 18px;
-    margin-left: 5px;
-    transition: all .5s ease;
-    text-decoration: none;
-  }
-  
-  /* Social media link hover effect */
-  .h-right i:hover {
-    color: var(--main-color);
-    transform: translateY(-3px);
-  }
-  
-  /* Menu icon styling */
-  #menu-icon {
-    color: var(--text-color);
-    font-size: 30px;
-    cursor: pointer;
-    z-index: 10001;
+  .nav{
     display: none;
   }
-  
+
+}
+
+.side {
+  display: none; /* Hide the sidebar by default */
+  background-color: transparent;
+}
+
+.nav-side {
+  background-color: transparent; /* Background color for the sidebar */
+  padding: 20px; /* Add padding to the sidebar */
+  color: #fff;
+  height: 100%; /* Full-height */
+}
+
+.nav-side a {
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px; /* Add some space between links */
+  background-color: transparent;
+}
+
+.close{
+  display: none;
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .side {
+      display: none; /* Display the sidebar for mobile devices */
+      width: 100%; /* Full width of the screen */
+      background-color: transparent;
+      height: 100%;
+  }
+  .side.active {
+    background-color: transparent;
+    display: block;
+  }
+  .close.active {
+    display: block;
+  }
+  .log.de-active {
+    display: none;
+  }
+  .nav-side {
+      width: 80%; /* Set the width of the sidebar */
+      height: 100%;
+  }
+
+  .nav-side a {
+      padding: 10px 0; /* Adjust padding for links */
+      border-bottom: 1px solid #ccc; /* Add a border between links */
+      margin-bottom: 0; /* Remove margin between links */
+  }
+}
+

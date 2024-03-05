@@ -1,8 +1,25 @@
-<footer>
+<footer id="Footer">
   <div class="footer-col">
-    <div class="footer-header">USEFUL LINKS</div>
-    <div class="footer-content">
+    <div class="footer-info">
+    <div class="footer-left">
+        
+          <div class="footer-content">
+          <div class="footer-logo">
+            <img width="auto" height="130" src="imgs/NTNLOG.png" alt="NTN Logistics - Footer Logo">
+          </div>  
+          <a href="mailto:nalaka@ntnleisure.com">Email us: nalaka@ntnleisure.com</a><br>
+            <a href="tel:+94766543874">Call us: +94766543874</a>
+            <a href="tel:+94717779721">/ +94717779721</a><br>
+          </div>
+    </div>  
+      
+    </div>
+  </div>
+<?php include 'inquiry.php'; ?>
+  <div class="footer-right">
+      <div class="footer-content">
       <ul>
+        <li><h1></h1>USEFUL LINKS</li>
         <li><a href="http://www.immigration.gov.lk/" target="_blank" title="Department of Immigration">Department of Immigration</a></li>
         <li><a href="https://www.sltda.gov.lk/en" title="Sri Lanka Tourism">Sri Lanka Tourism</a></li>
         <li><a href="https://www.eta.gov.lk/etaslvisa/" title="Electronic Travel Authorization">Electronic Travel Authorization</a></li>
@@ -15,84 +32,123 @@
       </ul>
     </div>
   </div>
-
-  <div class="footer-right">
-    <div class="footer-info">
-      <div class="footer-logo">
-        <img width="300" height="130" src="https://usplanka.com/wp-content/themes/usp/images/USP-logo-W.png.webp" alt="USP Lanka Tours - Footer Logo">
-      </div>
-      <div class="footer-contact">
-        <ul>
-          <li class="location"><b>Head operations:</b> Railway Tourist information Service, Colombo 00100</li>
-          <li class="location">No 72C/1, Janapriya mw, Awariyawatta, Alubomulla, Panadura</li>
-          <li class="phone"><a href="tel:+94716570402" title="call us">+94-71-657-0402</a></li>
-          <li class="mail"><a href="mailto:usplankatours@gmail.com" title="Mail us">usplankatours@gmail.com</a></li>
-          <li class="web"><a href="https://usplanka.com/" title="Website">www.usplanka.com</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 </footer>
-
-
 <style>
-  footer {
-  background-color: #000000;
+  /* Footer */
+footer {
+  background-color: black;
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  color: #white;
+  text-decoration: none;  
+  background-image: url('imgs/ntn-leisure-ntnleisure-colombo-city-lotus-tower-christoph-theisinger-9PPYa3LK6II-unsplash-.jpg');
+  background-size: cover;
+  backdrop-filter: blur(5px);
+ 
 }
 
 .footer-col {
-  flex: 1;
-  margin-right: 20px;
+  width: 50%;
 }
 
 .footer-header {
   font-weight: bold;
-  margin-bottom: 10px;
+  
+}
+.footer-content {
+  font-weight: bold;
 }
 
 .footer-content ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 
 .footer-content ul li {
   margin-bottom: 5px;
+}
+.footer-content a {
+  color: white;
   text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  padding-right: 5vw;
+  margin-left: 30px;
+  color: #000;
+}
+.footer-right a{
+  color: #000;
+  font-weight: bold;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  padding-left: 5vw;
+}
+.footer-logo img {
+  max-width: 300px;
+  height: auto;
+}
+.footer-contact {
+  text-decoration: none;
+  list-style: none
+}
+
+.footer-contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+  
+}
+
+.footer-contact ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-right a{
   color: #fff;
 }
 
 .footer-logo img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
-.footer-info ul {
-  list-style: none;
-  padding: 0;
+.footer-content {
+  margin-top: 10px; /* Adjust as needed */
+  color: #fff;
 }
 
-.footer-info ul li {
-  margin-bottom: 5px;
-}
+  footer {
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+  }
 
-.footer-info .location {
-  font-weight: bold;
+  .footer-col {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
-
-.footer-info .phone a,
-.footer-info .mail a,
-.footer-info .web a {
-  text-decoration: none;
-  color: #333;
-}
-
-.footer-info .phone a:hover,
-.footer-info .mail a:hover,
-.footer-info .web a:hover {
-  text-decoration: underline;
+.footer-content {
+  padding-right: 0px;
+  align-items: center;
 }
 </style>
+
