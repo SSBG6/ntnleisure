@@ -9,7 +9,7 @@
         <a href="Daytour.php">Day Tours</a>
         <a href="Packages.php">Packages</a>
         <a href="Bespoke.php">Bespoke Experiences</a>
-        <a href="#Footer">Inquire Now</a>
+        <a href="Bespoke.php">Inquire Now</a>
         </div>
     </div>
     <div class="side">
@@ -20,7 +20,7 @@
         <a href="Daytour.php">Day Tours</a>
         <a href="Packages.php">Packages</a>
         <a href="Bespoke.php">Bespoke Experiences</a>
-        <a href="#Footer">Inquire Now</a>
+        <a href="Bespoke.php">Inquire Now</a>
     </div>
     </div>
     <div class="h-right">

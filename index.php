@@ -45,19 +45,19 @@
         <div class="row-img">
           <img src="imgs/nap3.jpg">
         </div>
-        <h4>shop tours</h4>
+        <h4>Shop Tours</h4>
       </div>
       <div class="row">
         <div class="row-img">
           <img src="imgs/nap4.jpg">
         </div>
-        <h4>hotel and spa tours</h4>
+        <h4>Hotel and Spa Tours</h4>
       </div>
       <div class="row">
         <div class="row-img">
           <img src="imgs/nap5.jpg">
         </div>
-        <h4>wedding tours</h4>
+        <h4>Wedding Tours</h4>
       </div>
     </div>
   </section>
@@ -87,7 +87,7 @@
             <div class="overlay-text">
                 <h6>
                 Nine Arches Bridge
-                    <span>Uva Province</span>
+                    <span>Demodara</span>
                 </h6>
             </div>
         </div>
@@ -98,7 +98,7 @@
             <div class="overlay-text">
                 <h6>
                     Sigiriya
-                    <span>Southern Province</span>
+                    <span>8th Wonder of the World</span>
                 </h6>
             </div>
         </div>
@@ -108,8 +108,8 @@
         <div class="overlay">
             <div class="overlay-text">
                 <h6>
-                     Singharaja Rainforest
-                    <span>Southern Province</span>
+                     Singharaja
+                    <span>Rainforest</span>
                 </h6>
             </div>
         </div>

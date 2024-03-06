@@ -41,7 +41,7 @@
             <div class="overlay-text element">
             <h2>Adventurous Sri Lanka Tour</h2>
             <p>This program is a 15-day travel itinerary that takes you on a journey through Sri Lanka, exploring s...</p>
-            <button class="read-more">Read More</button>  
+            <button  onclick="window.location.href='Adventure.php';" class="read-more">Read More</button>  
           </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
           <div class="overlay-text element">
             <h2>Classic Sri Lankan Tour</h2>
             <p>This program is a 15-day travel itinerary that takes you on a journey through the beautiful island o...</p>
-            <button class="read-more">Read More</button>  
+            <button  onclick="window.location.href='Classic-Sri-Lankan-Tour.php';" class="read-more">Read More</button>
           </div>
           </div>
         </div>
@@ -61,7 +61,7 @@
             <div class="overlay-text element">
             <h2>Sri Lankan Wellness Tour</h2>
             <p>This program is a 13-day travel itinerary that takes you on a journey through the scenic beauty of S...</p>
-            <button class="read-more">Read More</button>  
+            <button  onclick="window.location.href='wellness.php';" class="read-more">Read More</button>  
           </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
           <div class="overlay-text element">
             <h2>Sri Lankan Wildlife Tour</h2>
             <p>This program is a 15-day travel itinerary that takes you on a journey through the natural beauty of...</p>
-            <button class="read-more">Read More</button>  
+            <button  onclick="window.location.href='wildlife.php';" class="read-more">Read More</button>
             </div>
           </div>
         </div>
@@ -81,7 +81,37 @@
           <div class="overlay-text element">
             <h2>Family Holiday In Sri Lanka</h2>
             <p>This travel program takes you on a 15-day journey through some of the most fascinating and beautiful...</p>
-            <button class="read-more">Read More</button>  
+            <button  onclick="window.location.href='family-tours.php';" class="read-more">Read More</button> 
+          </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img id="slnm"src="imgs/ntn-leisure-maldives.jpg">
+          <div class="overlay">
+          <div class="overlay-text element">
+            <h2>Sri Lanka & Maldivies Tour</h2>
+            <p>This travel program takes you on a 15-day journey that combines the best of Sri Lanka and the Maldiv...</p>
+            <button  onclick="window.location.href='Adventure.php';" class="read-more">Read More</button>
+          </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="imgs/ntn_leisure_couple.jpg">
+          <div class="overlay">
+          <div class="overlay-text element">
+            <h2>Honeymoon Tour</h2>
+            <p>This travel program takes you on a 15-day journey through some of the most fascinating and beautiful...</p>
+            <button  onclick="window.location.href='Honeymoon.php';" class="read-more">Read More</button>
+          </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="imgs/ntn-leisure-jaffna-tour.jpg">
+          <div class="overlay">
+          <div class="overlay-text element">
+            <h2>Sri Lankan Northern Heritage Tour</h2>
+            <p>This 14-day program covers a diverse range of destinations in Sri Lanka. It starts with two days in ...</p>
+            <button  onclick="window.location.href='Adventure.php';" class="read-more">Read More</button>  
           </div>
           </div>
         </div>
@@ -89,9 +119,9 @@
           <img src="imgs/ntn-leisure-tea-and-beach.jpg">
           <div class="overlay">
           <div class="overlay-text element">
-            <h2>Sri Lankan Beach Tour</h2>
+            <h2>Sri Lankan Tea & Beach Tour</h2>
             <p>This program is a short 7-day trip around Sri Lanka, starting with arrival in Colombo and then headi...</p>
-            <button class="read-more">Read More</button>
+            <button  onclick="window.location.href='t-n-beach.php';" class="read-more">Read More</button>
             </div>
             
           </div>
@@ -111,25 +141,11 @@
 </section>
 <?php include 'Footer.php';?>
 </body>
-<script>
-  document.querySelectorAll('.read-more').forEach(item => {
-    item.addEventListener('click', event => {
-        event.preventDefault();
-        const parent = item.parentElement;
-        const hiddenText = parent.querySelector('.hidden-text');
-        hiddenText.classList.toggle('show');
-        if (hiddenText.classList.contains('show')) {
-            item.textContent = 'Read Less';
-        } else {
-            item.textContent = 'Read More';
-        }
-    });
-});
-</script>
+
 <style>
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 3x3 grid on larger screens */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* 3x3 grid on larger screens */
     grid-gap: 5px;
     margin: 5px;
   }
@@ -189,6 +205,7 @@
     padding: 5px;
     backdrop-filter: blur(100px);
     margin-top: auto; /* Push text to the bottom */
+    transition: 0.3s ease-in-out;
      }
   
 
@@ -198,7 +215,7 @@
     border: 1px solid white;
     padding: 5px 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out;
     border-radius: 50px;
     font-weight: bold;
 
@@ -206,7 +223,7 @@
 
   .read-more:hover {
     background-color: var(--main-color);
-    border: none;
+    border: transparent;
   }
 
   .cover {

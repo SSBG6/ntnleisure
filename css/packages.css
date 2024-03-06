@@ -1,0 +1,54 @@
+/* This is the CSS for the packages page */
+    .days{
+        position: relative;
+        border-radius:50px;
+        background-color: transparent;
+        border: 2px var(--main-color) solid;
+        color: var(--main-color);
+        padding: 5px;
+        transition: 0.7s ease-in-out;
+    }
+    .days.show{
+        background-color: transparent;
+        color: #fff;
+        border:#000;
+        transition: 0.7s ease-in-out;
+        font-weight: bold;
+    }
+    .days:hover{
+        cursor: pointer;
+        background-color: var(--main-color);
+        color: #000;
+        border: 2px var(#000) solid;
+        transition: 0.2s ease-in-out;
+    }
+    .days.show:hover{
+        color: var(--main-color);
+        background-color: transparent;
+        cursor: pointer;
+        border: 2px var(--main-color) solid;
+        transition: 0.2s ease-in-out;
+        &::after{
+            border: 2px #fff solid;
+        }      }
+    .package-class{
+        margin-top: 20px;
+    }
+    .cover {
+            height: 40vh;
+            background-size: cover;
+            position: relative;
+            background-position: Center;
+            }
+        h1 {
+            font-size: 4.5vh;
+        }
+            .cover-content {
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-weight: bolder;
+            }      
