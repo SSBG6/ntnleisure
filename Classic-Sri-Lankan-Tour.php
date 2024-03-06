@@ -123,7 +123,7 @@
 </html>
 <style>
   .cover{
-    background-image: url('imgs/ntn-leisure-sigiriya.jpg');
+    background-image: url("imgs/ntn-leisure-kandy-sacred-city.jpg");
   }
 </style>
 </html>
