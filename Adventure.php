@@ -18,7 +18,7 @@
     <section class="cover">
         <div class="cover-content element">
     <h1>Adventurous Sri lankan Package</h1>
-    <p>Experience the thrill of an adventurous Sri Lankan package with NTN Leisure. Explore the stunning landscapes, ancient cities, and vibrant culture of Sri Lanka. Embark on a journey filled with exciting activities, from dolphin and whale watching to trekking through the Knuckles Mountain range. Immerse yourself in the beauty of Ella and Kithulgala, and relax on the picturesque beaches of Mirissa. Join us for an unforgettable adventure in Sri Lanka.</p>
+    <p>Embark on a thrilling Sri Lankan adventure with NTN Leisure. Explore breathtaking landscapes, ancient cities, and vibrant culture. Enjoy activities like dolphin watching and Knuckles Mountain trekking. Experience the charm of Ella and Kithulgala, and relax on Mirissa's picturesque beaches. Join us for an unforgettable journey in Sri Lanka.</p>
     </div> </section>
     <section>
         <div class="package-class">

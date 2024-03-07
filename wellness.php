@@ -28,11 +28,11 @@
         <h1>Sri lankan Wellness Tour</h1>
         <p>
             <strong>13 Days/ 12 Nights</strong><br>
-            This program is a 13-day travel itinerary that takes you on a journey through the scenic beauty of Sri Lanka. The trip begins with one day in Negombo, a coastal town known for its fishing industry and beach resorts. From there, you will travel to Habarana, where you will spend three days exploring the ancient ruins and wildlife of the area while staying at the peaceful Galkadawala eco-lodge.<br><br>
-            The following two days will be spent in Kandy, a city nestled in the hills, known for its cultural significance and picturesque surroundings. You will stay at the Samadhi Centre, a tranquil retreat that offers meditation and yoga classes.<br><br>
-            The next three days will be spent in Koggala, a coastal town known for its beautiful beaches and lagoon. You will stay at the luxurious Tri Lanka resort and have the opportunity to explore the nearby Galle Fort and visit a tea plantation.<br><br>
-            The final four days of the trip will be spent in Talalla, a charming beach town known for its surfing and yoga scene. You will stay at the Talalla Retreat, a serene resort that offers wellness activities and a chance to relax on the beach.<br><br>
-            The trip concludes on day 13 with a transfer to the airport for departure.
+            Embark on a captivating 13-day journey through Sri Lanka's scenic wonders. Begin with a day in Negombo, known for its fishing industry and beach resorts. Then, spend three days in Habarana exploring ancient ruins and wildlife at Galkadawala eco-lodge.
+
+Continue to Kandy for two days, experiencing its cultural significance at the Samadhi Centre. Next, luxuriate in Koggala for three days, indulging in beach bliss at Tri Lanka resort and exploring Galle Fort.
+
+Conclude with four days in Talalla for surfing and yoga at Talalla Retreat. On day 13, bid adieu as you transfer to the airport, carrying cherished memories of your Sri Lankan odyssey.
         </p>
     </div>
 </section>

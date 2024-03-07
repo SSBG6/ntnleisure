@@ -27,15 +27,16 @@
         <div class="cover-text element">
             <h1>Family Tours</h1>
             <p><strong>15 Days/ 14 Nights</strong></p>
-            This travel program takes you on a 15-day journey through some of the most fascinating and beautiful destinations in Sri Lanka. The trip begins with two days in Negombo, a coastal town with stunning beaches and a bustling fishing industry.
-            
-            From Negombo, you will head to the Cultural Triangle for three days, where you will explore ancient ruins and temples that showcase the country’s rich history and cultural heritage. Next, you will travel to Kandy, a picturesque hill station city, for two days of exploring the city’s historic sites and natural beauty.
-            
-            The adventure continues with two days in Kithulgala and Sinharaja, where you will go on a thrilling whitewater rafting adventure and hike through a UNESCO World Heritage Site rainforest.
-            
-            Afterward, you will travel to Galle for two days, a city famous for its colonial-era fortified city and beaches. You will have the opportunity to explore the old town and relax on the nearby beaches. Finally, the trip concludes with three days in Bentota, a coastal town known for its water sports and stunning beaches.
-            
-            The program concludes with departure on day 15 from Bentota.</p>
+           
+Embark on a mesmerizing 15-day exploration through Sri Lanka's diverse landscapes and rich cultural heritage. Your journey commences with two days in Negombo, where you'll bask in the beauty of its pristine beaches and experience the bustling fishing industry.
+
+Next, venture into the Cultural Triangle for three days, uncovering ancient ruins and temples that narrate the country's illustrious history. Then, spend two days in Kandy, a charming hill station city, immersing yourself in its historic sites and natural wonders.
+
+Continue your escapade with two days in Kithulgala and Sinharaja, where exhilarating whitewater rafting and treks through UNESCO World Heritage Site rainforests await.
+
+Journey onwards to Galle for two days, exploring its colonial-era fortifications and idyllic beaches. Wander through the historic old town and unwind on the sandy shores.
+
+Conclude your odyssey with three days in Bentota, indulging in thrilling water sports and unwinding on its pristine beaches. Bid farewell to Sri Lanka on day 15 from Bentota, carrying with you cherished memories of an unforgettable adventure.</p>
         </div>
     </section>
     <!-- Your content goes here -->

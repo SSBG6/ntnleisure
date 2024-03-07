@@ -26,7 +26,8 @@
   <section class="cover">
     <div class="cover-content element">
       <h1>Sri Lankan Tea and Beaches Tour</h1>
-      <p>Experience the beauty of Sri Lanka's tea plantations and pristine beaches on this unforgettable tour. Immerse yourself in the rich tea-making tradition as you explore the lush tea estates and learn about the tea-making process. Relax and unwind on the golden sandy beaches, soak up the sun, and indulge in delicious seafood. Discover the cultural and historical treasures of Sri Lanka while enjoying the breathtaking scenery. This tour is a perfect blend of relaxation, adventure, and cultural immersion.</p>
+      <p>Experience the allure of Sri Lanka's tea plantations and pristine beaches on a memorable tour. Delve into the centuries-old tea-making tradition amidst lush estates, gaining insight into the intricate process. Surrender to tranquility on golden sands, savoring the warmth of the sun and delectable seafood delights. Unearth the island's cultural and historical riches against a backdrop of breathtaking scenery. This tour harmonizes relaxation, adventure, and cultural immersion, promising an unforgettable journey.
+</p>
     </div>
   </section>
   <section>
