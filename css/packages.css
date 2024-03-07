@@ -52,3 +52,28 @@
             background-color: rgba(0, 0, 0, 0.7);
             font-weight: bolder;
             }      
+            @media screen and (max-width: 768px) {
+                /* Adjust font size for h1 */
+                h1 {
+                    font-size: 2vh;
+                }
+            
+                /* Adjust margin for package class */
+                .package-class {
+                    margin-top: 10px;
+                }
+            
+                /* Adjust padding and font size for days */
+                .days {
+                    padding: 3px;
+                    font-size: 14px;
+                }
+            
+                /* Adjust padding for cover content */
+                .cover-content {
+                    margin-top: 50px;
+                    top: 30px;
+                    padding: 10px;
+                    font-size: 12px;
+                }
+            }
