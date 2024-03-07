@@ -76,6 +76,10 @@
 <style>
   .cover{
     background-image: url('imgs/ntn-leisure-tea-and-beach.jpg');
+    height: 40vh;
+  }
+  h1{
+    margin: none;
   }
 </style>
 </html>

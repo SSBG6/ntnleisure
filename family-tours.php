@@ -87,5 +87,8 @@ Conclude your odyssey with three days in Bentota, indulging in thrilling water s
   .cover{
     background-image: url('imgs/ntn-leisure-family-beach-tour-holiday.jpg');
   }
+  h1{
+    margin: none;
+  }
 </style>
 </html>

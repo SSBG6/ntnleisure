@@ -92,6 +92,19 @@ Conclude with four days in Talalla for surfing and yoga at Talalla Retreat. On d
 <style>
   .cover{
     background-image: url('imgs/ntn-leisure-meditation-wellness.jpg');
+    HEIGHT: 40vh;
+
+  }
+  .cover-text{
+                    margin-top: none;
+                    top: 20px;
+                    bottom: 30px;
+                    padding: 10px;
+                    font-size: 12px;
+                    background-color: rgba(0, 0, 0, 0.5);
+  }
+  h1{
+    margin: none;
   }
 </style>
 </html>

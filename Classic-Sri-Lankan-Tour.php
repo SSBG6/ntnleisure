@@ -124,7 +124,18 @@
 </html>
 <style>
 
-  .cover{
-    background-image: url("imgs/ntn-leisure-kandy-sacred-city.jpg");
+.cover{
+    background-image: url('imgs/ntn-leisure-meditation-wellness.jpg');
+    HEIGHT: 40vh;
+
   }
+  .cover-text{
+                    margin-top: none;
+                    top: 20px;
+                    bottom: 30px;
+                    padding: 10px;
+                    font-size: 12px;
+                    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
 </style>

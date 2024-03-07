@@ -35,7 +35,7 @@
         margin-top: 20px;
     }
     .cover {
-            height: 40vh;
+
             background-size: cover;
             position: relative;
             background-position: Center;
@@ -51,8 +51,15 @@
             color: #fff;
             background-color: rgba(0, 0, 0, 0.7);
             font-weight: bolder;
+            width:80%;
             }      
-            @media screen and (max-width: 768px) {
+            h1{
+                margin-top: 70px;
+              }
+            @media screen and (max-width: 500px) {
+                .cover {
+                    height: 150vh;
+                }
                 /* Adjust font size for h1 */
                 h1 {
                     font-size: 2vh;
@@ -71,9 +78,9 @@
             
                 /* Adjust padding for cover content */
                 .cover-content {
-                    margin-top: 50px;
-                    top: 30px;
-                    padding: 10px;
+                    margin-top: 30%;
+                    top: 20px;
+                    width:80%;
                     font-size: 12px;
                 }
             }

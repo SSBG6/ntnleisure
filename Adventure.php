@@ -62,6 +62,9 @@
 <style>
 .cover {
             background-image: url('imgs/ntn-leisure-sri-lanka-srilankan-adventures.jpg');
+            height: 40vh;
    } 
-
+   h1{
+    margin: none;
+  }
 </style>
