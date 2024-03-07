@@ -25,7 +25,7 @@
   <div class="loader"></div>
   <section class="cover">
     <div class="cover-content element">
-    <h1>Classic Srilankan Tour</h1>
+    <h1>Classic Sri lankan Tour</h1>
     <p>This program is a 15-day travel itinerary that takes you on a journey through the beautiful island of Sri Lanka. The trip begins with one day in Negombo, a coastal town known for its fishing industry and beach resorts. From there, you will travel to Sigiriya, where you will spend the next three days exploring the famous Sigiriya Rock Fortress and other historical sites in the area.</p>
     </div>
   </section>
@@ -118,12 +118,13 @@
 </section>
   <?php include 'Footer.php';?>
   <script src="js/loadscript.js"></script>
-  <script src="js/packages.js">
+<script src="js/packages.js">
+</script>
 </body>
 </html>
 <style>
+
   .cover{
     background-image: url("imgs/ntn-leisure-kandy-sacred-city.jpg");
   }
 </style>
-</html>
