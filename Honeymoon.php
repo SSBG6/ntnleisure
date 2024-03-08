@@ -96,7 +96,6 @@
 <style>
   .cover{
     background-image: url('imgs/ntn_leisure_couple.jpg');
-    height: 40vh;
     
   }
   h1{
