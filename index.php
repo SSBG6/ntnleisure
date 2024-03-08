@@ -39,7 +39,7 @@
         <div class="row-img">
           <img src="imgs/nap2.jpg">
         </div>
-        <h4>Excursion tours</h4>
+        <h4>Excursion Tours</h4>
       </div>
       <div class="row">
         <div class="row-img">

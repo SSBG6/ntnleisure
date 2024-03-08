@@ -87,7 +87,7 @@ span {
 .menu-icon:hover {
   color: var(--main-color); /* Change color on hover */
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .menu-icon {
     display: block;
   }
@@ -121,7 +121,7 @@ span {
   display: none;
 }
 /* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .side {
       display: none; /* Display the sidebar for mobile devices */
       width: 100%; /* Full width of the screen */

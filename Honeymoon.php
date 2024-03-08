@@ -27,8 +27,7 @@
   <section class="cover">
         <div class="cover-text element">
             <h1>Honeymoon Tour</h1>
-            <p>Discover the most romantic destinations for your dream honeymoon.</p>
-            <p><strong>15 Days/14 Nights</strong></p>
+            <p>Embark on an unforgettable 15-day journey through Sri Lanka with NTN Leisure's exclusive honeymoon package. From serene Pasyala to ancient wonders in Anuradhapura, cultural charm in Kandy, and lush hills of Koslanda, every moment is filled with romance. Encounter wildlife in Yala, explore Galle's historic beauty, and unwind on Bentota's beaches. With NTN Leisure, cherish each memory of your dream honeymoon. Departure from Bandaranaike International Airport concludes your enchanting adventure.</p>
         </div>
     </section>
     
