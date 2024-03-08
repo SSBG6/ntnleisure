@@ -40,7 +40,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';  // SMTP server
     $mail->SMTPAuth   = true;                // Enable SMTP authentication
     $mail->Username   = 'nntninquiriesgmai@gmail.com';  // SMTP username
-    $mail->Password   = 'uyrj mwfq xswq ixdu';     // SMTP password
+    $mail->Password   = 'app password';     // SMTP password
     $mail->SMTPSecure = 'tls';               // Enable TLS encryption; `ssl` also accepted'
     $mail->Port       = 587;                 // TCP port to connect to
 
